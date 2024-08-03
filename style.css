@@ -12,13 +12,53 @@ body {
 .container {
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     border-radius: 6px;
     padding: 16px;
+    width: 60%;
+
     }
 
 .card  {
-    background-color: darkorange;
+    background-color: rgb(255, 195, 64);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    padding: 6px;
+    border-radius: 8px;
+    width: 45%;
+    height: 100%;
+}
+
+h3 {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+input{
+    border-radius: 4px;
+    height: 25%;   
+    width: 100%;
+    border-bottom: 12px;
+    margin-bottom: 8px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+button {
+width: 100%;
+border-radius: 4px;
+height: 25%;
+margin-bottom: 8px;
+}
+
+.saidas {
+background-color: green;
+text-align: center;
+width: 100%;
+height: 25%;
+margin-bottom: 2px;
 }

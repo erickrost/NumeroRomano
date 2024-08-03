@@ -1,25 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <title>Conversão Numeros Romanos</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1>Conversor de Números Romanos</h1>
     <div class="container">
-        <div class="card"> 
-            <div id="numeroReal" type="number"></div>
-            <input id="numeroRomano">
-            <button id="button">Converter</button>
-        </div>
-        <div class="card">
-            <input id="numeroReall" type="number">
-            <div id="numeroRomanoo"></div>
-            <button id="button2">Converter</button>
-        </div>
+      <div class="card">
+        <h3>Romano para Arábicos</h3>
+        <input id="roman-to-arabic-input" type="text" />
+        <button id="roman-to-arabic-button">Converter</button>
+        <div id="roman-to-arabic-result" type="number">Resultado</div>
+      </div>
+
+      <div class="card">
+        <h3>Arábico para Romanos</h3>
+        <input id="arabic-to-roman-input" type="number" />
+        <button id="arabic-to-roman-button">Converter</button>
+        <div id="arabic-to-roman-result">Resultado</div>
+      </div>
     </div>
 
-    <script src="script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
